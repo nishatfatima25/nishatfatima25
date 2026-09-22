@@ -16,7 +16,7 @@ Still learning, still building.
 
 ## ✦ Coding & workspace
 
-<p align="center">
+<div align="center">
   <img src="https://img.shields.io/badge/VS%20Code-0D1117?style=for-the-badge&logo=visualstudiocode&logoColor=22A6F2" alt="VS Code" />
   &nbsp;
   <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=ffffff" alt="GitHub" />
@@ -28,24 +28,24 @@ Still learning, still building.
   <a href="https://www.codechef.com/">
     <img src="https://img.shields.io/badge/CodeChef-0D1117?style=for-the-badge&logo=codechef&logoColor=D2B48C" alt="CodeChef" />
   </a>
-</p>
+</div>
 
 ---
 
 ## ✦ Tech Stack
 
-<p align="center">
+<div align="center">
   <img
     src="https://skillicons.dev/icons?i=cpp,java,python,c,js,html,css,bootstrap,react,nodejs,express,mongodb,mysql,git"
     alt="C++, Java, Python, C, JavaScript, HTML, CSS, Bootstrap, React, Node.js, Express, MongoDB, MySQL and Git"
   />
-</p>
+</div>
 
 ---
 
 ## ✦ Analytics
 
-<p align="center">
+<div align="center">
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
@@ -61,9 +61,9 @@ Still learning, still building.
       alt="GitHub contributions and streaks"
     />
   </picture>
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
@@ -85,19 +85,19 @@ Still learning, still building.
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="./profile/language-composition-compact-dark.svg"
+      srcset="./profile/language-composition-wide-dark.svg"
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="./profile/language-composition-compact-light.svg"
+      srcset="./profile/language-composition-wide-light.svg"
     />
     <img
-      src="./profile/language-composition-compact-dark.svg"
+      src="./profile/language-composition-wide-dark.svg"
       width="40%"
       alt="Most used languages"
     />
   </picture>
-</p>
+</div>
 
 <div align="center">
 
@@ -109,7 +109,7 @@ Still learning, still building.
 
 ## ✦ Connect With Me
 
-<p align="center">
+<div align="center">
   <a href="https://www.linkedin.com/in/nishat-fatima-6ba8b7296">
     <img src="https://img.shields.io/badge/LinkedIn-0D1117?style=flat-square&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" />
   </a>
@@ -125,4 +125,4 @@ Still learning, still building.
   <a href="mailto:nishatfatima256@gmail.com">
     <img src="https://img.shields.io/badge/Email-0D1117?style=flat-square&logo=gmail&logoColor=EA4335" alt="Email" />
   </a>
-</p>
+</div>
