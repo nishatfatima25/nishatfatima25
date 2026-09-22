@@ -101,7 +101,6 @@ Still learning, still building.
 
 <div align="center">
 
-`1000+ problems solved` &nbsp;·&nbsp; `CodeChef 3★`
 
 </div>
 
