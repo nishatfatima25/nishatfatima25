@@ -1,0 +1,71 @@
+name: Update profile analytics
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile-analytics
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Generate activity consistency
+        id: consistency
+        uses: shinpr/github-profile-stats@49b5f7091182a45f3ef93923505b660c6da5f835
+        with:
+          username: ${{ github.repository_owner }}
+          token: ${{ github.token }}
+          profile: activity-consistency
+
+      - name: Generate GitHub statistics
+        id: signal
+        uses: shinpr/github-profile-stats@49b5f7091182a45f3ef93923505b660c6da5f835
+        with:
+          username: ${{ github.repository_owner }}
+          token: ${{ github.token }}
+          profile: signal-field
+
+      - name: Generate language composition
+        id: languages
+        uses: shinpr/github-profile-stats@49b5f7091182a45f3ef93923505b660c6da5f835
+        with:
+          username: ${{ github.repository_owner }}
+          token: ${{ github.token }}
+          profile: language-composition
+
+      - name: Copy generated cards
+        env:
+          CONSISTENCY_DIR: ${{ steps.consistency.outputs.ready-dir }}
+          SIGNAL_DIR: ${{ steps.signal.outputs.ready-dir }}
+          LANGUAGES_DIR: ${{ steps.languages.outputs.ready-dir }}
+        run: |
+          mkdir -p profile
+
+          cp "$CONSISTENCY_DIR"/activity-consistency-*.svg profile/
+          cp "$SIGNAL_DIR"/signal-field-*.svg profile/
+          cp "$LANGUAGES_DIR"/language-composition-*.svg profile/
+
+      - name: Commit updated analytics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add profile/*.svg
+
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+
+          git commit -m "Update profile analytics"
+          git push
