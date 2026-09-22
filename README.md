@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/header.png" alt="Nishat Fatima GitHub Banner" width="100%" />
+  <img src="header.png" alt="Nishat Fatima GitHub Banner" width="100%" />
 </div>
 
 <br>
