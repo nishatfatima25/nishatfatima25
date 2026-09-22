@@ -17,17 +17,27 @@ Still learning, still building.
 ## ✦ Coding & workspace
 
 <div align="center">
+
   <img src="https://img.shields.io/badge/VS%20Code-0D1117?style=for-the-badge&logo=visualstudiocode&logoColor=22A6F2" alt="VS Code" />
+
   &nbsp;
-  <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=ffffff" alt="GitHub" />
+
+  <a href="https://github.com/nishatfatima25">
+    <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=ffffff" alt="GitHub" />
+  </a>
+
   &nbsp;
+
   <a href="https://leetcode.com/u/Nishat_Fatima25/">
     <img src="https://img.shields.io/badge/LeetCode-0D1117?style=for-the-badge&logo=leetcode&logoColor=FFA116" alt="LeetCode" />
   </a>
+
   &nbsp;
-  <a href="https://www.codechef.com/">
+
+  <a href="https://www.codechef.com/users/nishatfatima25">
     <img src="https://img.shields.io/badge/CodeChef-0D1117?style=for-the-badge&logo=codechef&logoColor=D2B48C" alt="CodeChef" />
   </a>
+
 </div>
 
 ---
@@ -109,19 +119,27 @@ Still learning, still building.
 ## ✦ Connect With Me
 
 <div align="center">
+
   <a href="https://www.linkedin.com/in/nishat-fatima-6ba8b7296">
-    <img src="https://img.shields.io/badge/LinkedIn-0D1117?style=flat-square&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
+
   &nbsp;&nbsp;
+
   <a href="https://leetcode.com/u/Nishat_Fatima25/">
     <img src="https://img.shields.io/badge/LeetCode-0D1117?style=flat-square&logo=leetcode&logoColor=FFA116" alt="LeetCode" />
   </a>
+
   &nbsp;&nbsp;
+
   <a href="https://www.codechef.com/">
     <img src="https://img.shields.io/badge/CodeChef-0D1117?style=flat-square&logo=codechef&logoColor=D2B48C" alt="CodeChef" />
   </a>
+
   &nbsp;&nbsp;
+
   <a href="mailto:nishatfatima256@gmail.com">
     <img src="https://img.shields.io/badge/Email-0D1117?style=flat-square&logo=gmail&logoColor=EA4335" alt="Email" />
   </a>
+
 </div>
