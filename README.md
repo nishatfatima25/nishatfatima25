@@ -39,28 +39,7 @@ Still learning, still building.
 
 ## ✦ Analytics
 
-<p align="center">
-  <img src="./profile/stats.svg" height="170" alt="GitHub statistics" />
-  <img src="./profile/top-langs.svg" height="170" alt="Most used languages" />
-</p>
-
-<p align="center">
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="./profile/activity-consistency-wide-dark.svg"
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="./profile/activity-consistency-wide-light.svg"
-    />
-    <img
-      src="./profile/activity-consistency-wide-dark.svg"
-      width="92%"
-      alt="GitHub contribution activity and streaks"
-    />
-  </picture>
-</p>
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=dvskullz&show_icons=true&theme=dark&hide_border=true&count_private=true" height="170" alt="GitHub statistics" /> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dvskullz&layout=compact&theme=dark&hide_border=true" height="170" alt="Most used languages" /> </p> <p align="center"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=dvskullz&theme=dark&hide_border=true" width="92%" alt="GitHub streak stats" /> </p> <p align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=dvskullz&theme=react-dark&hide_border=true" width="92%" alt="Contribution activity graph" /> </p>
 
 <div align="center">
 
